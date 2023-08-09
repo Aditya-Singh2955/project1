@@ -1133,18 +1133,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-[-13rem] h-1/5 w-full ">
-                  <div className=" h-full w-full flex justify-end items-end  ">
-                    <NavigationIcon
-                      onClick={() => onClickTop()}
-                      style={{
-                        fontSize: "50px",
-                        backgroundColor: "#ed4956",
-                        borderRadius: "50px",
-                      }}
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
