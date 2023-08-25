@@ -576,7 +576,7 @@ export default function Home() {
           </div>
         </main>
       ) : (
-        <main className="">
+        <main className="bg-black ">
           <div className="h-screen bg-black w-full bg-[url('../public/bg.png')] bg-no-repeat bg-center bg-fit overflow-hidden">
             <div className="h-20 w-full flex fixed 	">
               <div className="h-20 w-1/2  flex items-end  justify-end ">
@@ -617,8 +617,8 @@ export default function Home() {
                   </div>
                 </div>
               ) : (
-                <div className=" flex h-full  w-2/5 justify-end items-end">
-                  <MenuIcon sx={{ fontSize: "36px" }} onClick={handleClick} />
+                <div className=" flex h-full  w-2/5 justify-end items-end ">
+                  <MenuIcon sx={{ fontSize: "36px" , color:"white"}} onClick={handleClick} />
                   <Menu
                     id="basic-menu"
                     anchorEl={anchorEl}
@@ -663,7 +663,7 @@ export default function Home() {
               )}
             </div>
 
-            <div id="homepage" className="h-5/6 w-full flex overflow-hidden ">
+            <div id="homepage" className="h-5/6 w-full flex overflow-hidden  ">
               <div className="h-5/6 w-1/2  flex items-end justify-end ">
                 <div className="h-96 w-10/12  flex flex-col items-start justify-center">
                   <span className=" h-10 flex items-end text-sm text-white">
@@ -686,7 +686,7 @@ export default function Home() {
 
           <div
             id="aboutpage"
-            className="h-full flex flex-col justify-center items-center overflow-hidden"
+            className="h-full bg-black flex flex-col justify-center items-center overflow-hidden"
           >
             <div className=" h-screen w-full  flex justify-center items-center ">
               <div className="  h-3/5 w-4/5 bg-red-600 bg-[url('/what.jpg')] bg-no-repeat bg-center bg-cover "></div>
@@ -803,10 +803,10 @@ export default function Home() {
             id="servicespage"
             className="h-screen bg-black w-full flex items-center justify-center"
           >
-            <div className="h-full w-full  ">
-              <div className="h-1/6 w-full flex  items-center justify-center">
+            <div className="h-full w-full bg-black ">
+              <div className="h-1/6 w-full flex  items-center justify-center bg-black">
                 <div className="h-full w-full flex flex-col">
-                  <div className="h-full w-full p-6  text-white text-5xl font-semibold flex items-center">
+                  <div className="h-full w-full p-6  text-white text-5xl font-semibold flex items-center bg-black">
                     My Services
                   </div>
                 </div>
@@ -891,12 +891,12 @@ export default function Home() {
 
           <div
             id="projectpage"
-            className="mt-[50rem] h-screen bg-black w-full flex items-center justify-center"
+            className="mt-[55rem] h-screen bg-black w-full flex items-center justify-center"
           >
-            <div className="h-full w-full ">
-              <div className="mb-80 w-full flex  items-center justify-center ">
-                <div className="h-full w-full flex flex-col">
-                  <div className="h-full w-full p-6  text-white text-5xl font-semibold flex items-center">
+            <div className="h-full w-full bg-black ">
+              <div className="mb-80 w-full flex  items-center justify-center bg-black ">
+                <div className="h-full w-full flex flex-col bg-black">
+                  <div className="h-full w-full p-6  text-white text-5xl font-semibold flex items-center bg-black">
                     My Project
                   </div>
                 </div>
@@ -1133,6 +1133,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
