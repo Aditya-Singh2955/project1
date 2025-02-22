@@ -87,7 +87,7 @@ export default function Home() {
               <div className="lg:h-5/6 lg:w-1/2  lg:flex lg:items-end lg:justify-end ">
                 <div className="lg:h-96 lg:w-10/12  lg:flex lg:flex-col lg:items-start lg:justify-center">
                   <span className=" lg:h-10 lg:text-xl lg:text-white">
-                    UI/UX Designer
+                    MERN Developer
                   </span>
                   <span className=" lg:h-6 lg:text-5xl lg:font-semibold lg:text-white">
                     Hi, I'm{" "}
@@ -117,7 +117,7 @@ export default function Home() {
                   About Us
                 </div>
                 <div className="lg:h-3.5/6 lg:p-3 lg:w-full lg:text-white">
-                  Hello! I'm Aditya, a passionate and driven third-year Btech
+                  Hello! I'm Aditya, a passionate and driven Final year Btech
                   ECE student. My journey in the world of technology has been
                   nothing short of thrilling. My insatiable curiosity and knack
                   for quickly learning new skills and programming languages have
@@ -127,7 +127,7 @@ export default function Home() {
                   Throughout my academic journey, I've diligently honed my
                   knowledge and skills in a wide range of technologies.
                   Proficient in HTML, CSS, C++, React, Next.js, Tailwind CSS,
-                  and JavaScript, I've proven myself as a versatile and
+                  and JavaScript,SQL, MongoDB, Node, Express, GitHub, Python, JavaScript, AWS. I've proven myself as a versatile and
                   resourceful developer. My ability to grasp complex concepts
                   and apply them in real-world scenarios has been instrumental
                   in my academic achievements.
@@ -196,6 +196,17 @@ export default function Home() {
                         </span>
                         <p className="lg:text-white">
                           Designed Web Pages At AppZoTech.com
+                        </p>
+                      </ul>
+                          <ul>
+                        <li className="lg:text-sl lg:font-bold lg:text-[#ed4956]">
+                          Sedulous Softtech Pvt Ltd
+                        </li>
+                        <span className="lg:text-xs lg:text-white">
+                          Internship
+                        </span>
+                        <p className="lg:text-white">
+                          Worked on various projects, including e-commerce and in-house projects.
                         </p>
                       </ul>
                     </div>
@@ -374,7 +385,7 @@ export default function Home() {
                         </div>
                         <div className="lg:h-4/5 lg:w-full lg:text-white  lg:text-xs lg:font-semibold">
                           I successfully developed a Netflix clone utilizing
-                          React, Material UI, and custom CSS. By meticulously
+                          React, Material UI, and custom CSS ,Node and Express. By meticulously
                           replicating the design and functionality of the
                           original Netflix homepage, I showcased my proficiency
                           in front-end development. The result is a responsive
@@ -667,7 +678,7 @@ export default function Home() {
               <div className="h-5/6 w-1/2  flex items-end justify-end ">
                 <div className="h-96 w-10/12  flex flex-col items-start justify-center">
                   <span className=" h-10 flex items-end text-sm text-white">
-                    UI/UX Designer
+                    MERN Developer
                   </span>
                   <span className=" h-10 w-80 text-3xl font-semibold text-white">
                     Hi, I'm{" "}
@@ -697,7 +708,7 @@ export default function Home() {
                   About Us
                 </div>
                 <div className="h-3.5/6 p-3 w-full text-white">
-                  Hello! I'm Aditya, a passionate and driven third-year Btech
+                  Hello! I'm Aditya, a passionate and driven Final year Btech
                   ECE student. My journey in the world of technology has been
                   nothing short of thrilling. My insatiable curiosity and knack
                   for quickly learning new skills and programming languages have
@@ -772,6 +783,15 @@ export default function Home() {
                         <span className="text-xs text-white">Internship</span>
                         <p className="text-white">
                           Designed Web Pages At AppZoTech.com
+                        </p>
+                      </ul>
+                          <ul>
+                        <li className="text-sl font-bold text-[#ed4956]">
+                          Sedulous Softtech Pvt Ltd
+                        </li>
+                        <span className="text-xs text-white">Internship</span>
+                        <p className="text-white">
+                          Worked on various projects, including e-commerce and in-house projects.
                         </p>
                       </ul>
                     </div>
@@ -918,7 +938,7 @@ export default function Home() {
                           I played a pivotal role in designing web pages for
                           various websites, focusing on enhancing the
                           responsiveness of their service sections. My expertise
-                          primarily revolves around React.js, Next.js, and CSS,
+                          primarily revolves around React.js, Next.js, and CSS, Node js,Express and MongoDB 
                           enabling me to create dynamic and engaging user
                           interfaces. I strive to optimize user experiences by
                           blending design aesthetics with technical proficiency,
@@ -942,10 +962,10 @@ export default function Home() {
                         </div>
                         <div className=" w-full text-white text-xs font-semibold">
                           I successfully developed a Netflix clone utilizing
-                          React, Material UI, and custom CSS. By meticulously
+                          React, Material UI,custom CSS,Node, Express and MongoDB. By meticulously
                           replicating the design and functionality of the
                           original Netflix homepage, I showcased my proficiency
-                          in front-end development. The result is a responsive
+                          in Full Stack development. The result is a responsive
                           and visually appealing replica that closely emulates
                           the user experience of Netflix's official website.
                         </div>
